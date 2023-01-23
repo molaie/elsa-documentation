@@ -64,10 +64,10 @@ And add the following packages:
 
 ```bash
 dotnet add package Elsa
-dotnet add package Elsa.Activities.Email
-dotnet add package Elsa.Activities.Http
-dotnet add package Elsa.Activities.Temporal.Quartz
-dotnet add package Elsa.Persistence.EntityFramework.Sqlite
+dotnet add package Elsa.Email
+dotnet add package Elsa.Http
+dotnet add package Elsa.Quartz
+dotnet add package Elsa.EntityFramework.Sqlite
 dotnet add package Elsa.Server.Api
 dotnet add package Elsa.Designer.Components.Web
 ```
